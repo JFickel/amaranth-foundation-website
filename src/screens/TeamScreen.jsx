@@ -34,7 +34,7 @@ export const TeamScreen = () => {
   const renderTeamMember = (teamMemberData) => {
     return (
       <div className="team-member" key={`${teamMemberData.name}`}>
-        <img className="team-member-photo" src={teamMemberData.image_url} alt="team-member-picture" />
+        <img className="team-member-photo" src={require(`../assets/team-photos/${teamMemberData.image}`)} alt="team-member-picture" />
         <p className="name">{teamMemberData.name}</p>
         <p className="title">{teamMemberData.title}</p>
         <div className="actions">
@@ -54,14 +54,17 @@ export const TeamScreen = () => {
         onAfterOpen={() => {}}
         onRequestClose={closeBioModal}
         contentLabel="Team Member Modal">
-        <div className="team-member">
-          <img className="team-member-photo" src={activeBio?.image_url} alt="team-member-picture" />
-          <p className="name">{activeBio?.name}</p>
-          <p className="title">{activeBio?.title}</p>
-          {activeBio?.bio ? activeBio.bio.split("\\n\\n").map((bioSection, index) => {
-            return ( <p className="bio" key={`bio-section-${index}`}>{bioSection}</p> )
-          }) : (<></>)}
-        </div>
+        {activeBio ? (
+          <div className="team-member">
+            <img className="team-member-photo" src={require(`../assets/team-photos/${activeBio?.image}`)} alt="team-member-picture" />
+            <p className="name">{activeBio?.name}</p>
+            <p className="title">{activeBio?.title}</p>
+            {activeBio.bio.split("\\n\\n").map((bioSection, index) => {
+              return ( <p className="bio" key={`bio-section-${index}`}>{bioSection}</p> )
+            })}
+          </div>
+
+        ) : (<></>)}
         <img src={close} className="close-modal" onClick={closeBioModal} />
       </Modal>
       <div className="section banner-section">
