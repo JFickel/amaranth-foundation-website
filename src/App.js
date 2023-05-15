@@ -11,7 +11,6 @@ import { TeamScreen } from "./screens/TeamScreen";
 import { WinningPapersScreen } from "./screens/WinningPapersScreen";
 import { TermsOfServiceScreen } from "./screens/TermsOfServiceScreen";
 import { PrivacyPolicyScreen } from "./screens/PrivacyPolicyScreen";
-import { HelloScreen } from "./screens/HelloScreen";
 
 const TRACKING_ID = process.env.REACT_APP_ANALYTICS_TRACKING_ID
 if (TRACKING_ID !== undefined) {
@@ -46,7 +45,6 @@ export const App = () => {
             <Route path="/winning-papers" element={<WinningPapersScreen />} />
             <Route path="/terms-of-service" element={<TermsOfServiceScreen />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyScreen />} />
-            <Route path="/hello" element={<HelloScreen />} />    
           </Routes>
           <div className="flex-spacer" />
           <Footer />
