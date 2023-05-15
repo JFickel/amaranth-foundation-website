@@ -168,7 +168,7 @@ export const HomeScreen = () => {
               to="/about#selection-process" target="_blank" className="read-more-text" rel="noreferrer"
             >
               {/* <a className="read-more-text" href="/about#selection-process" target="_blank" rel="noreferrer"> */}
-                Read more about applying for funding
+                Read about our top areas to fund
               {/* </a> */}
             </Link>
             <img src={rightArrow} alt="right arrow" className="read-more-arrow" />
