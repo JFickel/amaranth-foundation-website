@@ -1417,6 +1417,17 @@ input {
       }
     }
 
+    .team-section.core-team {
+      margin-top: 40px;
+      // .team-title {
+      //   margin-top: 20px;
+      //   color: $charcoal-dark;
+      //   font-size: 60px;
+      //   font-weight: 400;
+      //   margin-bottom: 26px;
+      // }
+    }
+
     .team-section {
       .team-members {
         display: flex;
@@ -1428,26 +1439,34 @@ input {
           display: flex;
           flex-direction: column;
           justify-content: flex-start;
-          width: 350px;
-          &:nth-child(n+4) {
-            margin-top: 48px;
-          }
+          width: 230px;
+          // &:nth-child(n+4) {
+          //   margin-top: 28px;
+          // }
+
+          // &:nth-child(4) {
+          //   .name {
+          //     margin-top: 24px;
+          //     color: $charcoal-dark;
+          //     font-size: 18px;
+          //   }
+          // }
 
           img.team-member-photo {
-            height: 250px;
-            width: 250px;
+            height: 170px;
+            width: 170px;
             border-radius: 50%;
           }
 
           .name {
             margin-top: 24px;
             color: $charcoal-dark;
-            font-size: 28px;
+            font-size: 19px;
           }
 
           .title {
             color: $charcoal-dark;
-            font-size: 16px;
+            font-size: 15px;
           }
 
           .actions {
@@ -1467,11 +1486,19 @@ input {
 
     .team-section.advisory-board {
       .advisory-board-title {
-        margin-top: 120px;
+        margin-top: 70px;
         color: $charcoal-dark;
-        font-size: 90px;
+        font-size: 60px;
         font-weight: 400;
+        margin-bottom: 26px;
       }
+
+      .team-member {
+        &:nth-child(n+6) {
+          margin-top: 36px;
+        }  
+      }
+
       margin-bottom: 100px;
     }
   }

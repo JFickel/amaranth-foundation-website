@@ -67,14 +67,14 @@ export const TeamScreen = () => {
         ) : (<></>)}
         <img src={close} className="close-modal" onClick={closeBioModal} />
       </Modal>
-      <div className="section banner-section">
+      {/* <div className="section banner-section">
         <div className="text-content">
           <p className="section-title">Team</p>
           <p className="section-description">Discover experienced <span className="emphasis">biotech professionals and advisory board members</span>, who are dedicated to driving innovation and success in the industry.</p>
         </div>
         <div className="flex-spacer" />
         <img src={bubbles2} alt="research logo" className="section-image" />
-      </div>
+      </div> */}
 
       <div className="section team-section core-team">
         <div className="team-members">
@@ -85,7 +85,7 @@ export const TeamScreen = () => {
       </div>
 
       <div className="section team-section advisory-board">
-        <h2 className="advisory-board-title">ADVISORY BOARD</h2>
+        <h2 className="advisory-board-title">Advisory Board</h2>
         <div className="team-members">
           {team.filter((teamMember) => { return teamMember.advisory_board }).map((teamMember) => {
             return renderTeamMember(teamMember);

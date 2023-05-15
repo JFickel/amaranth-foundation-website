@@ -23,8 +23,8 @@ export const Header = () => {
       display: "ABOUT"
     },
     {
-      path: "/winning-papers",
-      display: "WINNING PAPERS"
+      path: "/prize",
+      display: "THE PRIZE"
     }
   ];
 
