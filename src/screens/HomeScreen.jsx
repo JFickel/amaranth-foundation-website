@@ -123,7 +123,16 @@ export const HomeScreen = () => {
   return (
     <div className="screen home-screen">
 
-      <div className="section powered-by-section">
+      <div className="section main-title">
+        <div className="text-content">
+          <p className="tagline">Amaranth Foundation</p>
+          <p className="secondary">Our mission is to engage skilled researchers and support innovative ideas in order to accelerate longevity research over the next 10 years. Over the past year, we have contributed more than $30M to researchers, distinguishing our group as the leading recent donor effort in the longevity field.</p>
+        </div>
+        <div className="flex-spacer" />
+        <img src={voterfraud} alt="accelerate" className="section-image" />
+      </div>
+
+      {/* <div className="section powered-by-section">
         <div className="text-content">
           <p className="attribution">POWERED BY <span className="emphasis">Research Portfolio</span></p>
           <h2 className="tagline">Rewarding the most impactful research in <span className="emphasis">longevity</span></h2>
@@ -144,22 +153,22 @@ export const HomeScreen = () => {
         </div>
         <div className="flex-spacer" />
         <img src={treetrunk} alt="tree trunk" className="section-image" />
-      </div>
+      </div> */}
 
-      <div className="section mission-section">
-        <img src={voterfraud} alt="lifespan" className="section-image" />
+      <div className="section funded-section">
+        <img src={bubbles} alt="lifespan" className="section-image" />
         <div className="flex-spacer" />
         <div className="text-content">
-          <p className="section-title">WHAT IS OUR MISSION</p>
-          <p className="section-description">
-            Substantially increasing the human lifespan. The Amaranth Prize gives <span className="emphasis">no-strings attached funding</span> to the best research in Longevity.
+          <p className="section-title">WHAT WE'VE FUNDED</p>
+          <p className="secondary">
+            With direction from our advisory board, our team has funded research spanning brain aging, the aggregome, centenarian genetics, cryopreservation, and germline rejuvenation.
           </p>
           <div className="read-more">
             <Link
               to="/about#selection-process" target="_blank" className="read-more-text" rel="noreferrer"
             >
               {/* <a className="read-more-text" href="/about#selection-process" target="_blank" rel="noreferrer"> */}
-                Read more about our selection process
+                Read more about applying for funding
               {/* </a> */}
             </Link>
             <img src={rightArrow} alt="right arrow" className="read-more-arrow" />

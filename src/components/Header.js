@@ -25,6 +25,10 @@ export const Header = () => {
     {
       path: "/winning-papers",
       display: "WINNING PAPERS"
+    },
+    {
+      path: "/hello",
+      display: "HELLO"
     }
   ];
 

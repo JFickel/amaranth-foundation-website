@@ -31,7 +31,7 @@ a, input, textarea {
 
 h1, h2, h3, h4, h5, h6, p, hr, pre, a, input, span {
   margin: 0;
-  font-family: "SpaceGrotesk";
+  font-family: "DMSans";
 }
 
 a, button {
@@ -934,10 +934,44 @@ input {
         font-weight: 400;
         color: $charcoal-dark;
         line-height: 120%;
-        letter-spacing: -0.01em;
+        // letter-spacing: -0.01em;
 
         span.emphasis {
           color: $emphasis-red;
+        }
+      }
+    }
+    
+    .section.main-title {
+      margin-top: 60px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      img.section-image {
+        width: 457px;
+      }
+
+      .text-content {
+        .tagline {
+          font-family: 'DMSans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 90px;
+          line-height: 100%;
+          letter-spacing: 0.01em;
+          color: $charcoal-dark;
+        }
+        .secondary {
+          margin-top: 16px;
+          font-family: 'DMSans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 140%;
+          letter-spacing: -0.01em;
+          color: $charcoal-dark;
         }
       }
     }
@@ -1015,7 +1049,23 @@ input {
       }
     }
 
-    .section.mission-section {
+    .section.funded-section {
+      .text-content {
+        .secondary {
+          margin-top: 16px;
+          font-family: 'DMSans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 140%;
+          letter-spacing: -0.01em;
+          color: $charcoal-dark;
+        }
+        span.emphasis {
+          color: $emphasis-red;
+        }
+      }
+
       margin-top: 60px;
       display: flex;
       flex-direction: row;
