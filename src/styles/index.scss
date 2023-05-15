@@ -1110,6 +1110,17 @@ input {
       justify-content: flex-start;
       align-items: center;
 
+      .section-description {
+        margin-top: 16px;
+        font-family: 'DMSans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: -0.01em;
+        color: $charcoal-dark;
+      }
+
       img.section-image {
         width: 552px;
       }

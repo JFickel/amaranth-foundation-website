@@ -161,7 +161,7 @@ export const HomeScreen = () => {
         <div className="text-content">
           <p className="section-title">WHAT WE'VE FUNDED</p>
           <p className="secondary">
-            With direction from our advisory board, our team has funded research spanning brain aging, the aggregome, centenarian genetics, cryopreservation, and germline rejuvenation.
+            With direction from our advisory board, we have funded research spanning brain aging, the aggregome, centenarian genetics, cryopreservation, and germline rejuvenation.
           </p>
           <div className="read-more">
             <Link
@@ -178,19 +178,19 @@ export const HomeScreen = () => {
 
       <div className="section why-section">
         <div className="text-content">
-          <p className="section-title">WHY WE DO IT THIS WAY</p>
+          <p className="section-title">THE AMARANTH PRIZE</p>
           <p className="section-description">
-            We award research <span className="emphasis">retrospectively</span> because we believe scientists should pursue what they find most intriguing.
+            We also award research <span className="emphasis">retrospectively</span> because we believe scientists should pursue what they find most intriguing and be rewarded for impact.
           </p>
           <p className="section-description">
-            The Amaranth Prize is awarded to 15 winners, as well as the research that influenced them.
+            The first Amaranth Prize was focused on aggregome research and awarded to 15 winners, as well as the research that influenced them.
           </p>
           <p className="section-description">
             <span className="emphasis">Science stands on the shoulders of giants.</span>
           </p>
           <div className="read-more">
             <Link className="read-more-text" to="/about#awarding-section" target="_blank" rel="noreferrer">
-              Read more about awarding the prize
+              Learn more about the prize
             </Link>
             <img src={rightArrow} alt="right arrow" className="read-more-arrow" />
           </div>
@@ -198,96 +198,6 @@ export const HomeScreen = () => {
         <div className="flex-spacer" />
         <img src={tournamentbracket} alt="research logo" className="section-image" />
       </div>
-
-      <div className="section how-section">
-        <img src={bubbles} alt="research logo" className="section-image" />
-        <div className="flex-spacer" />
-        <div className="text-content">
-          <p className="section-title">HOW IT WORKS</p>
-          <p className="section-description">
-            We select a topic of primary importance within longevity research and convene a <span className="emphasis">panel of experts</span> to choose research efforts that are the most deserving.
-          </p>
-          <div className="read-more">
-            <Link
-              to="/about#experts-section" target="_blank" className="read-more-text" rel="noreferrer"
-            >
-              Read more about the experts
-            </Link>
-            <img src={rightArrow} alt="right arrow" className="read-more-arrow" />
-          </div>
-        </div>
-      </div>
-
-      <div className="section learn-more-section">
-        <div className="content-container">
-          <a className="button" href="/about" target="_blank" rel="noreferrer">
-            <p className="button-text">Learn more about the prize</p>
-          </a>
-          {IS_RESEARCH_PORTFOLIO_READY ?
-           <React.Fragment>
-          <div className="flex-spacer" />
-          <div className="read-more">
-            <a className="read-more-text" href="https://google.com" target="_blank" rel="noreferrer">
-              Visit Research Portfolio
-            </a>
-            <img src={externallink} alt="external link" className="external-link" />
-          </div>
-           </React.Fragment>
-           : null}
-        </div>
-      </div>
-
-      <div className="section winning-papers-section">
-        <div className="text-content">
-          <p className="section-title">WINNING PAPERS</p>
-          <p className="section-description"><span className="emphasis">The 2022 Amaranth Prize winners</span> were selected in the field from a review of over 2800 papers.</p>
-        </div>
-        <div className="winning-paper-highlight winners">
-          <div className="highlight-header">
-            <p className="highlight-title">Winners</p>
-            <div className="flex-spacer" />
-            <div className="see-all">
-              <a className="see-all-text" href="/winning-papers" target="_blank" rel="noreferrer">
-                See all
-              </a>
-              <img src={rightArrow} alt="right arrow" className="see-all-arrow" />
-            </div>
-          </div>
-          <PaperCarousel papers={papers.filter((paper) => { return paper["winner"] })} />
-        </div>
-        {IS_PARENTS_READY &&
-        <div className="winning-paper-highlight parents">
-          <div className="highlight-header">
-            <p className="highlight-title">Parents of the winning papers</p>
-            <div className="flex-spacer" />
-            <div className="see-all">
-              <a className="see-all-text" href="#" target="_blank" rel="noreferrer">
-                See all
-              </a>
-              <img src={rightArrow} alt="right arrow" className="see-all-arrow" />
-            </div>
-          </div>
-          <PaperCarousel papers={papers.filter((paper) => { return paper["parent"] })} />
-        </div>
-        }
-        {IS_GRANDPARENTS_READY &&
-        <div className="winning-paper-highlight grandparents">
-          <div className="highlight-header">
-            <p className="highlight-title">Grandparents of the winning papers</p>
-            <div className="flex-spacer" />
-            <div className="see-all">
-              <a className="see-all-text" href="#" target="_blank" rel="noreferrer">
-                See all
-              </a>
-              <img src={rightArrow} alt="right arrow" className="see-all-arrow" />
-            </div>
-          </div>
-          <PaperCarousel papers={papers.filter((paper) => { return paper["grandparent"] })} />
-        </div>
-        }
-      </div>
-
-      {faq}
 
       {join}
     </div>
