@@ -748,6 +748,32 @@ input {
       }
     }
 
+    .section.main-title {
+      margin-top: 64px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      img.section-image {
+        align-self: center;
+        margin-top: 40px;
+        width: 343px;
+      }
+    }
+
+    .section.funded-section {
+      margin-top: 64px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      img.section-image {
+        align-self: center;
+        margin-top: 40px;
+        width: 343px;
+      }
+    }
+
     .section.why-section {
       margin-top: 64px;
       display: flex;
