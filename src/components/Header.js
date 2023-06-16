@@ -19,10 +19,6 @@ export const Header = () => {
       display: "TEAM"
     },
     {
-      path: "/about",
-      display: "ABOUT"
-    },
-    {
       path: "/prize",
       display: "THE PRIZE"
     }

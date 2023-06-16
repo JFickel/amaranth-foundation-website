@@ -6,9 +6,9 @@ import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 
 import { HomeScreen } from "./screens/HomeScreen";
-import { AboutScreen } from "./screens/AboutScreen";
+import { PrizeScreen } from "./screens/PrizeScreen";
 import { TeamScreen } from "./screens/TeamScreen";
-import { WinningPapersScreen } from "./screens/WinningPapersScreen";
+// import { WinningPapersScreen } from "./screens/WinningPapersScreen";
 import { TermsOfServiceScreen } from "./screens/TermsOfServiceScreen";
 import { PrivacyPolicyScreen } from "./screens/PrivacyPolicyScreen";
 
@@ -40,9 +40,8 @@ export const App = () => {
           <Header />
           <Routes>
             <Route path="/" element={<HomeScreen />} />
-            <Route path="/about" element={<AboutScreen />} />
             <Route path="/team" element={<TeamScreen />} />
-            <Route path="/winning-papers" element={<WinningPapersScreen />} />
+            <Route path="/prize" element={<PrizeScreen />} />
             <Route path="/terms-of-service" element={<TermsOfServiceScreen />} />
             <Route path="/privacy-policy" element={<PrivacyPolicyScreen />} />
           </Routes>

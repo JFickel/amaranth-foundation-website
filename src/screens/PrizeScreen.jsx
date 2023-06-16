@@ -7,7 +7,7 @@ import rightArrow from "../assets/right-arrow.png";
 
 import expertsData from "../data/experts.yml";
 
-export const AboutScreen = () => {
+export const PrizeScreen = () => {
   const [experts, setExperts] = React.useState([]);
     const { hash } = useLocation();
 
