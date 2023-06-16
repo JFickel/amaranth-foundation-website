@@ -19,7 +19,7 @@ export const Footer = () => {
         </div>
         <div className="flex-spacer" />
         <div className="content">
-          <div className="content-section-wrapper content-primary">
+          {/* <div className="content-section-wrapper content-primary">
             <div className="content-section information">
               <p className="content-title">INFORMATION</p>
               {IS_INFO_READY ?
@@ -35,7 +35,7 @@ export const Footer = () => {
               <Link to={"/winning-papers"} className="navigation-link">PRODUCT</Link>
             </div>
             : null}
-          </div>
+          </div> */}
           {IS_TWITTER_READY ?
           <div className="content-section-wrapper content-secondary">
             <div className="content-section social">
