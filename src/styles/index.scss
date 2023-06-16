@@ -753,6 +753,11 @@ input {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
+      font-size: 24px;
+
+      .tagline {
+        font-size: 38px;
+      }
 
       img.section-image {
         align-self: center;
