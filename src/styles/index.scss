@@ -756,7 +756,16 @@ input {
       font-size: 24px;
 
       .tagline {
-        font-size: 38px;
+        height: 112px;
+        width: 343px;
+        left: 16px;
+        top: 40px;
+        border-radius: nullpx;
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0.01em;
+        text-align: left;
       }
 
       img.section-image {
