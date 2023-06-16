@@ -161,7 +161,7 @@ export const HomeScreen = () => {
         <div className="text-content">
           <p className="section-title">WHAT WE'VE FUNDED</p>
           <p className="secondary">
-            With direction from our advisory board, we have funded research spanning brain aging, the aggregome, centenarian genetics, cryopreservation, and germline rejuvenation.
+            With direction from our advisory board, we have funded research spanning neurogenesis, the aggregome, centenarian genetics, cryopreservation, and germline rejuvenation.
           </p>
           <div className="read-more">
             <Link
@@ -183,7 +183,7 @@ export const HomeScreen = () => {
             We also award research <span className="emphasis">retrospectively</span> because we believe scientists should pursue what they find most intriguing and be rewarded for impact.
           </p>
           <p className="section-description">
-            The first Amaranth Prize was focused on aggregome research and awarded to 15 winners, as well as the research that influenced them.
+            The first Amaranth Prize was focused on protein aging and awarded to 15 winners, as well as the research that influenced them.
           </p>
           <p className="section-description">
             <span className="emphasis">Science stands on the shoulders of giants.</span>

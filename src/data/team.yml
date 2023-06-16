@@ -3,12 +3,12 @@
   - name: James Fickel
     title: Executive Director
     image: james-fickel.jpg
-    bio: James is an early Ethereum investor and founded Amaranth to accelerate research in longevity. He assembled Amaranth’s SAB, a group of young leaders in longevity biotech, to source and evaluate ambitious research covering brain aging, the aggregome, centenarian genetics, cryopreservation, and germline rejuvenation.\n\nHe has backed the Norn Group, Impetus Grants, the SuperAgers Family Initiative, the Longevity Undergraduate Program, MBL Aging Course, as well as labs from Harvard, MIT, and Stanford.
+    bio: James is an early Ethereum investor and founded Amaranth to accelerate research in longevity. He assembled Amaranth’s SAB, a group of young leaders in longevity biotech, to source and evaluate ambitious research covering the aggregome, centenarian genetics, cryopreservation, germline rejuvenation and brain aging.\n\nHe has backed the Norn Group, Impetus Grants, the SuperAgers Family Initiative, the Longevity Undergraduate Program, MBL Aging Course, as well as labs from Harvard, MIT, and Stanford.
 
-  - name: Joanne Peng
-    title: Chief of Staff
-    image: joanne-peng.jpg
-    bio: Joanne is a researcher in the Boyden lab at MIT, where she works on tools for brain aging including spatial transcriptomics and proteomics. Previously, she was a Thiel Fellow, where she worked on mitochondrial dynamics at the Biomedical Institute at MaRS, Curative, and the Buck Institute. Joanne has been supported by Princeton, the Thiel Foundation, Interact, Day One Project, the Institute for Progress, the Davis UWC Foundation, and VitaDAO.\n\nAt Amaranth, Joanne builds moonshot science initiatives in brain aging, neurotech, spinal cord injury, and cryopreservation.
+  # - name: Joanne Peng
+  #   title: Chief of Staff
+  #   image: joanne-peng.jpg
+  #   bio: Joanne is a researcher in the Boyden lab at MIT, where she works on tools for brain aging including spatial transcriptomics and proteomics. Previously, she was a Thiel Fellow, where she worked on mitochondrial dynamics at the Biomedical Institute at MaRS, Curative, and the Buck Institute. Joanne has been supported by Princeton, the Thiel Foundation, Interact, Day One Project, the Institute for Progress, the Davis UWC Foundation, and VitaDAO.\n\nAt Amaranth, Joanne builds moonshot science initiatives in brain aging, neurotech, spinal cord injury, and cryopreservation.
 
   - name: Rohan Krajeski
     title: Consultant, Neuroscience
