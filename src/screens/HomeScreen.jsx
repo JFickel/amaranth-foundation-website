@@ -189,7 +189,7 @@ export const HomeScreen = () => {
             <span className="emphasis">Science stands on the shoulders of giants.</span>
           </p>
           <div className="read-more">
-            <Link className="read-more-text" to="/about#awarding-section" target="_blank" rel="noreferrer">
+            <Link className="read-more-text" to="/prize" target="_blank" rel="noreferrer">
               Learn more about the prize
             </Link>
             <img src={rightArrow} alt="right arrow" className="read-more-arrow" />
