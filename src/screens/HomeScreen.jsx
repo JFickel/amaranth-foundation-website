@@ -126,7 +126,7 @@ export const HomeScreen = () => {
       <div className="section main-title">
         <div className="text-content">
           <p className="tagline">Amaranth Foundation</p>
-          <p className="secondary">Our mission is to engage skilled researchers and support ambitious ideas in the longevity and neuroscience fields. Over the past few years, we have donated over $30M to research spanning neurogenesis, the aggregome, centenarian genetics, cryopreservation, and germline rejuvenation.</p>
+          <p className="secondary">Our mission is to engage skilled researchers and support ambitious ideas in the longevity and neuroscience fields. In the past few years, we have donated over $30M to research spanning neurogenesis, the aggregome, centenarian genetics, cryopreservation, and germline rejuvenation.</p>
         </div>
         <div className="flex-spacer" />
         <img src={voterfraud} alt="accelerate" className="section-image" />
