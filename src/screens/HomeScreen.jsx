@@ -126,7 +126,7 @@ export const HomeScreen = () => {
       <div className="section main-title">
         <div className="text-content">
           <p className="tagline">Amaranth Foundation</p>
-          <p className="secondary">Our mission is to engage skilled researchers and support innovative ideas in order to accelerate longevity research over the next 10 years. Over the past year, we have contributed more than $30M to researchers, distinguishing our group as the leading recent donor effort in the longevity field.</p>
+          <p className="secondary">Our mission is to engage skilled researchers and support ambitious ideas in the longevity and neuroscience fields. Over the past few years, we have donated over $30M to research spanning neurogenesis, the aggregome, centenarian genetics, cryopreservation, and germline rejuvenation.</p>
         </div>
         <div className="flex-spacer" />
         <img src={voterfraud} alt="accelerate" className="section-image" />
@@ -161,7 +161,7 @@ export const HomeScreen = () => {
         <div className="text-content">
           <p className="section-title">WHAT WE'VE FUNDED</p>
           <p className="secondary">
-            With direction from our advisory board, we have funded research spanning neurogenesis, the aggregome, centenarian genetics, cryopreservation, and germline rejuvenation.
+            With direction from our advisory board, we have produced reports that enumerate and prioritize the most important longevity research for donors.
           </p>
           <div className="read-more">
             <Link
